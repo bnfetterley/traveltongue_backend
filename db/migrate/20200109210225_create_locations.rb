@@ -4,6 +4,8 @@ class CreateLocations < ActiveRecord::Migration[6.0]
       t.string :country
       t.string :city
       t.string :region
+      t.float :longitude
+      t.float :latitude
 
       t.timestamps
     end
