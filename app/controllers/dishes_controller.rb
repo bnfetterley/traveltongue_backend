@@ -13,7 +13,7 @@ class DishesController < ApplicationController
 
      def create
          @dish =
-         Dish.create(post_params)
+         Dish.create(dish_params)
          render json: @dish
      end
 
@@ -34,7 +34,7 @@ class DishesController < ApplicationController
      private
 
      def dish_params
-         params.permit(:user_id, :location_id, :description, :name)
+         params.permit(:user_id, :location_id, :description, :name, :image)
      end
 
      def current_dish
