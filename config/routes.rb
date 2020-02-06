@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   post '/dishes' => 'dishes#create'
   post '/login', to: 'auth#login'
   get '/persist', to: 'auth#persist'
+
+  root 'home#index'
   
 
 end
