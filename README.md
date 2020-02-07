@@ -1,24 +1,46 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# TravelingTongue
+<!-- A little info about your project and/ or overview that explains what the project is about. -->
+TravelingTongue is a web app that allows users to discover local dishes from around the world.
 
-Things you may want to cover:
+## Motivation
+<!-- A short description of the motivation behind the creation and maintenance of the project. This should explain why the project exists. -->
+I love exploring cultures through food and this app allows you to do just that!  Users can share their favorite local dishes and learn about dishes of other cultures. 
 
-* Ruby version
+<!-- Build status
+Build status of continus integration i.e. travis, appveyor etc. Ex. - -->
 
-* System dependencies
+<!-- Build Status Windows Build Status -->
 
-* Configuration
+<!-- Code style
+If you're using any code style like xo, standard etc. That will help others while contributing to your project. Ex. - -->
 
-* Database creation
+<!-- js-standard-style -->
 
-* Database initialization
+<!-- Screenshots
+Include logo/demo screenshot etc. -->
 
-* How to run the test suite
+<!-- Tech/framework used
+Ex. - -->
 
-* Services (job queues, cache servers, search engines, etc.)
+## Technologies
+JWT Auth
+Ruby on Rails
 
-* Deployment instructions
+## APIs
+Google Maps API: https://developers.google.com/maps/documentation
+WorldBank API:  https://api.ipgeolocationapi.com/countries
 
-* ...
+## Features
+- Interactive map for discovering dishes by country
+- Pop up modal forms for seamless user input
+- User's can comment on dishes they have tried or want to try
+
+<!-- Code Example
+Show what the library does as concisely as possible, developers should be able to figure out how your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise. -->
+
+## Installation
+
+Run the backend using
+Run the frontend by using npm start
