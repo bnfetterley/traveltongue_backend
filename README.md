@@ -1,5 +1,7 @@
 # TravelingTongue
 <!-- A little info about your project and/ or overview that explains what the project is about. -->
+![image](https://github.com/bnfetterley/traveltongue_frontend/blob/master/src/Screen%20Shot%202020-02-10%20at%205.40.25%20PM.png)
+![image](https://github.com/bnfetterley/traveltongue_frontend/blob/master/src/Screen%20Shot%202020-02-10%20at%205.46.46%20PM.png)
 TravelingTongue is a web app that allows users to discover local dishes from around the world.
 
 ## Motivation
@@ -9,21 +11,24 @@ I love exploring cultures through food and this app allows you to do just that! 
 
 ## How to Install and View...
 *  Fork the above repo.
-*  Fork [this](https://github.com/bnfetterley/traveltongue_frontend) repo. 
+*  Fork [this](https://github.com/bnfetterley/traveltongue_backend) repo. 
 *  Open both repos in seperate terminals
 *  For the front-end, enter in the terminal 'npm i && npm start'
 *  For the back-end, enter in the terminal 'bundle i && rails s'
 
 ## Technologies
-JWT Auth
-Ruby on Rails
+* React
+* Redux 
+* JWT Auth
+* Ruby on Rails
 
 ## APIs
-Google Maps API: https://developers.google.com/maps/documentation
-WorldBank API:  https://api.ipgeolocationapi.com/countries
+* Frontend: Google Maps API: https://developers.google.com/maps/documentation
+* Backend: WorldBank API:  https://api.ipgeolocationapi.com/countries
 
 ## Features
 - Interactive map for discovering dishes by country
-- Pop up modal forms for seamless user input
+- Pop up modal forms for seamless user input![image](https://github.com/bnfetterley/traveltongue_frontend/blob/master/src/Screen%20Shot%202020-02-10%20at%205.52.55%20PM.png)
 - User's can comment on dishes they have tried or want to try
+![image](https://github.com/bnfetterley/traveltongue_frontend/blob/master/src/Screen%20Shot%202020-02-10%20at%205.57.39%20PM.png)
 
