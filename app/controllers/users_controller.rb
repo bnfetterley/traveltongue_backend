@@ -17,11 +17,11 @@ class UsersController < ApplicationController
          render json: @user
 
          if user.valid?
-            user = user
+            @user = @user
             token = JWT.encode({user_id: user.id}, secret, 'HS256')
             render json: {user: user, token: token}
         else
-            render json: {errors: user.errors.full_messages}
+            # render json: {errors: user.errors.full_messages}
         end
 
      end
@@ -40,6 +40,7 @@ class UsersController < ApplicationController
          @user.destroy
          render json: @user
      end
+
 
      private
 
